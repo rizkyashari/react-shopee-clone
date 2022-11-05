@@ -32,7 +32,7 @@ function Register() {
     const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
       event.preventDefault();
       try {
-            let user = await axios.get('http://localhost:4000/users', {
+            let user = await axios.get('https://63665a44046eddf1bafe0705.mockapi.io/users', {
                 params: {
                     username: input.username
                 },

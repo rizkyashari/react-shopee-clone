@@ -32,7 +32,7 @@ export const fetchUsers = () => {
     return(dispatch: Dispatch<UsersAction>): void => {
         dispatch(setUsersLoading(true))
         dispatch(setUsersError(null))
-        fetch('http://localhost:4000/users').then((response) => {
+        fetch('https://63665a44046eddf1bafe0705.mockapi.io/users').then((response) => {
             if(!response.ok) throw new Error('Fetch users failed')
             return response.json();
         }).then((data) => dispatch(setUsers(data))).catch((error) => dispatch(setUsersError(error)))
@@ -42,7 +42,7 @@ export const fetchUsers = () => {
 
 export const postUser = (payload: IUser) => {
     return (): void => {
-      axios.post("http://localhost:4000/users", payload);
+      axios.post("https://63665a44046eddf1bafe0705.mockapi.io/users", payload);
     };
   };
   
