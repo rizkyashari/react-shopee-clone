@@ -1,0 +1,15 @@
+.progress-bar {
+    width: 25%;
+    background-color: rgb(255, 72, 0);
+  }
+  .progress {
+    height: 9px;
+  }
+  .image-flash-sale {
+    max-height: 120px;
+  }
+  
+  #price-card {
+    font-weight: bold;
+    color: rgb(255, 72, 0);
+  }

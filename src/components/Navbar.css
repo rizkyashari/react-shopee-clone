@@ -1,0 +1,45 @@
+a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.navbar {
+    background-color: orangered;
+}
+
+.navbar-toogler {
+    border: white;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0;
+}
+
+.nav-link {
+    color: white;
+    padding-top: 0.5rem;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+  }
+   
+  img {
+    width: 100%;
+  }
+
+  .navbar-brand {
+      width: 144px;
+      height: auto;
+  }
+   
