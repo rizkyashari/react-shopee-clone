@@ -20,3 +20,10 @@ export interface ITrendyProductsCard {
     sale: string;
     title: string;
   }
+
+export interface IFlashSaleItems {
+    image: string;
+    name: string;
+    undiscounted: string;
+    discounted: string;
+  }
