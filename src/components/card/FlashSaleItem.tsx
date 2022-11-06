@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col, ProgressBar, Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 import { IFlashSaleItems } from '../../interface'
 
 const FlashSaleItem: React.FC<IFlashSaleItems> = ({ image, name, undiscounted, discounted }) => {
