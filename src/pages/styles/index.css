@@ -1,0 +1,9 @@
+/* Page Flash Sale */
+
+.mybtn {
+    padding:15px;
+    display:inline-block;}
+
+.mycontainer {
+    display:flex;
+    align-items:center;}
